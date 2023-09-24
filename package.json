@@ -2,7 +2,7 @@
   "name": "-tenzies",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://sunnysavlot.github.io/react-tenzies",
+  "homepage": "https://github.com/sunnySavlot/react-tenzies.git",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
