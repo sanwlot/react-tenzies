@@ -5,7 +5,7 @@ import './App.css'
 import Header from './components/Header'
 import Die from './components/Die'
 import Confetti from 'react-confetti'
-import Scoreboard from './components/ScoreBoard'
+// import Scoreboard from './components/ScoreBoard'
 
 function App() {
   const [dice, setDice] = useState(allNewDice())
