@@ -1,0 +1,36 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.roll-btn {
+  background-color: black;
+  border: none;
+  color: white;
+  width: 120px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(128, 128, 128, 0.728);
+  transition: box-shadow .2s;
+  margin-bottom: 5px;
+}
+
+.roll-btn:active {
+  box-shadow: none;
+}
+
+.win-txt {
+  font-size: 50px;
+  font-weight: bold;
+}
